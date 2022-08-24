@@ -40,5 +40,10 @@
     "react-dom": "^18.2.0",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json"
+  ]
 }
