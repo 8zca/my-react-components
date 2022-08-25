@@ -11,7 +11,6 @@
     "types": ["node", "react"],
     "sourceMap": true,
     "outDir": "dist/esm",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true
   },
