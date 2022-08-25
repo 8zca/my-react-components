@@ -14,13 +14,7 @@
     "outDir": "dist/esm",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@*": [
-        "src*"
-      ]
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": [
     "dist",
