@@ -1,6 +1,6 @@
 {
   "name": "@8zca/my-react-components",
-  "version": "1.0.8",
+  "version": "1.0.7",
   "description": "",
   "main": "dist/esm/index.js",
   "type": "module",
