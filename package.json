@@ -1,6 +1,6 @@
 {
   "name": "@8zca/my-react-components",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
-    "lint": "eslint 'src/**/*.{ts,tsx}'"
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": ["yarn lint:fix"]
   },
   "repository": {
     "type": "git",
@@ -46,6 +50,8 @@
     "babel-loader": "^8.2.5",
     "eslint": "^8.22.0",
     "eslint-plugin-react": "^7.31.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.78.1",
