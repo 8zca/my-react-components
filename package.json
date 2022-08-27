@@ -9,7 +9,9 @@
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint:fix": "eslint --fix 'src/**/*.{ts,tsx}'",
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "repository": {
     "type": "git",
@@ -39,8 +41,11 @@
     "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.7.12",
     "@types/react": "^18.0.17",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
     "babel-loader": "^8.2.5",
     "eslint": "^8.22.0",
+    "eslint-plugin-react": "^7.31.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^2.78.1",
