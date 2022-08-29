@@ -1,6 +1,6 @@
 {
   "name": "@8zca/my-react-components",
-  "version": "1.0.18",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -15,7 +15,9 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["yarn lint:fix"]
+    "*.{ts,tsx}": [
+      "yarn lint:fix"
+    ]
   },
   "repository": "github:8zca/my-react-components",
   "publishConfig": {
@@ -70,5 +72,9 @@
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.5"
+  }
 }
