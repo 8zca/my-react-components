@@ -20,8 +20,7 @@ jobs:
           fetch-depth: 0
       - run: |
           yarn
-          yarn add semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/npm \
-            @semantic-release/github @semantic-release/changelog @semantic-release/git
+          yarn add semantic-release @semantic-release/changelog @semantic-release/git
           yarn build
 
       - run: yarn run semantic-release
