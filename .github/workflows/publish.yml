@@ -38,3 +38,4 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PKG_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.PKG_TOKEN }}
+          GH_TOKEN: ${{ secrets.PKG_TOKEN }}
