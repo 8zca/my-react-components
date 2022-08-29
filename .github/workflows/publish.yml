@@ -17,7 +17,11 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@8zca'
-      - run: yarn && yarn build
-      - run: npm publish
+      - run: |
+          yarn
+          yarn add semantic-release
+          yarn build
+
+      - run: yarn run semantic-release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
