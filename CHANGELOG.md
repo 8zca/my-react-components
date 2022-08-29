@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/8zca/my-react-components/compare/v1.0.0...v2.0.0) (2022-08-29)
+# [2.0.0](https://github.com/8zca/my-react-components/compare/v1.0.0...v2.0.0) (2022-08-29)
 
 
 ### BREAKING CHANGES
