@@ -22,13 +22,19 @@ jobs:
       - run: |
           yarn && yarn build
 
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v2
-        id: semantic # Need an `id` for output variables
-        with:
-          extra_plugins: |
-            @semantic-release/git
-            @semantic-release/changelog
+      # - name: Semantic Release
+      #   uses: cycjimmy/semantic-release-action@v2
+      #   id: semantic # Need an `id` for output variables
+      #   with:
+      #     extra_plugins: |
+      #       @semantic-release/git
+      #       @semantic-release/changelog
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.PKG_TOKEN }}
+      #     NODE_AUTH_TOKEN: ${{ secrets.PKG_TOKEN }}
+
+      - run: yarn add semantic-release @semantic-release/changelog @semantic-release/git
+      - run: yarn run semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.PKG_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.PKG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PKG_TOKEN }}
