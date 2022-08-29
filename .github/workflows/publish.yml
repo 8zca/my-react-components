@@ -25,6 +25,6 @@ jobs:
 
       - run: yarn run semantic-release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.PKG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PKG_TOKEN }}
           GH_TOKEN: ${{ secrets.PKG_TOKEN }}
