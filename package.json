@@ -17,10 +17,7 @@
   "lint-staged": {
     "*.{ts,tsx}": ["yarn lint:fix"]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/8zca/my-react-components.git"
-  },
+  "repository": "github:8zca/my-react-components",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
