@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/8zca/my-react-components/compare/v0.1.0...v1.0.0) (2022-08-29)
+
+
+### Features
+
+* release ([6d24a92](https://github.com/8zca/my-react-components/commit/6d24a92438eb5254ce9bf73cd4f46a70480791e7))
+
+
+### BREAKING CHANGES
+
+*
+
 # [0.1.0](https://github.com/8zca/my-react-components/compare/v0.0.3...v0.1.0) (2022-08-29)
 
 
