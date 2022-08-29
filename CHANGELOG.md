@@ -1,6 +1,16 @@
 # [2.0.0](https://github.com/8zca/my-react-components/compare/v1.0.0...v2.0.0) (2022-08-29)
 
 
+* no prefix ([3f0bbef](https://github.com/8zca/my-react-components/commit/3f0bbefaa569399ff181116f72387a247f1505c9))
+
+
+### BREAKING CHANGES
+
+* v2 test
+
+# [2.0.0](https://github.com/8zca/my-react-components/compare/v1.0.0...v2.0.0) (2022-08-29)
+
+
 ### BREAKING CHANGES
 * test
 
