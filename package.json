@@ -18,7 +18,7 @@
     "*.{ts,tsx}": ["yarn lint:fix"]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/8zca"
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "",
