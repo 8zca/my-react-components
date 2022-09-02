@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/8zca/my-react-components/compare/v2.0.1...v2.0.2) (2022-09-02)
+
+
+### Bug Fixes
+
+* patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
+
 ## [2.0.1](https://github.com/8zca/my-react-components/compare/v2.0.0...v2.0.1) (2022-09-02)
 
 
