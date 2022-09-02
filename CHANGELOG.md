@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/8zca/my-react-components/compare/v2.0.0...v2.0.1) (2022-09-02)
+
+
+### Bug Fixes
+
+* protect branch ([1e0dca8](https://github.com/8zca/my-react-components/commit/1e0dca8e1fdf8b9a3b20a9e6ff11e2ad389f8eac))
+
 # [2.0.0](https://github.com/8zca/my-react-components/compare/v1.0.0...v2.0.0) (2022-08-29)
 
 
