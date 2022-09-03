@@ -5,6 +5,13 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [2.0.3](https://github.com/8zca/my-react-components/compare/v2.0.2...v2.0.3) (2022-09-03)
+
+
+### Bug Fixes
+
+* remove release config ([b75ee08](https://github.com/8zca/my-react-components/commit/b75ee08eda07177145190a09cdf826e6e05107f6))
+
 ## [2.0.1](https://github.com/8zca/my-react-components/compare/v2.0.0...v2.0.1) (2022-09-02)
 
 
