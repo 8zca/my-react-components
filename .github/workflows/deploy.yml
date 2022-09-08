@@ -1,0 +1,47 @@
+name: Deploy test
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - stories/**
+      - .storybook/**
+  pull_request:
+    paths:
+      - stories/**
+      - .storybook/**
+
+jobs:
+  deploy_preview:
+    if: ${{ github.ref != 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set domain
+        id: set_domain
+        run: echo "::set-output name=domain::pr-${{ github.event.number }}.example.com"
+
+      - name: Deploy
+        run: echo "deploy command"
+
+      - name: Output preview URL
+        if: ${{ github.event.action == 'opened' }}
+        uses: thollander/actions-comment-pull-request@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: ":detective: Preview Url: https://${{ steps.set_domain.outputs.domain }}"
+
+  deproy_prod:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Deploy
+        run: echo "deploy command"
