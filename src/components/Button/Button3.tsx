@@ -5,5 +5,5 @@ export type ButtonProps = {
 } & ComponentPropsWithoutRef<'button'>
 
 export const Button3: React.FC<ButtonProps> = ({ text, ...props }) => {
-  return <button {...props} css={{ background: '#ccc' }}>{text}</button>
+  return <button {...props} css={{ background: '#000' }}>{text}</button>
 }
