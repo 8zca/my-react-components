@@ -5,6 +5,13 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [3.0.2](https://github.com/8zca/my-react-components/compare/v3.0.1...v3.0.2) (2022-10-12)
+
+
+### Bug Fixes
+
+* color 000 ([8b2fc80](https://github.com/8zca/my-react-components/commit/8b2fc809137288fed943dc68c8a3e69b187117c8))
+
 ## [3.0.1](https://github.com/8zca/my-react-components/compare/v3.0.0...v3.0.1) (2022-10-12)
 
 
