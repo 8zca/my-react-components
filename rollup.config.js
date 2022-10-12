@@ -1,3 +1,5 @@
+import { babel } from '@rollup/plugin-babel'
+
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import typescript from '@rollup/plugin-typescript'
@@ -28,6 +30,7 @@ export default [
             commonjs(),
             typescript({ tsconfig: './tsconfig.json' }),
             terser(),
+            babel({ babelHelpers: 'bundled', configFile: './babel.config.js' })
         ],
         external: ['react', 'react-dom', '@emotion/react', '@emotion/styled']
     },
