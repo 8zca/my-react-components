@@ -5,6 +5,22 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [3.0.0](https://github.com/8zca/my-react-components/compare/v2.0.3...v3.0.0) (2022-10-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* major v up
+
+### Bug Fixes
+
+* css prop ([0fb4919](https://github.com/8zca/my-react-components/commit/0fb49198b1c4e691e385fe0accbffc73f17a2055))
+
+
+### Miscellaneous Chores
+
+* major v up ([66b83f5](https://github.com/8zca/my-react-components/commit/66b83f5b166aec0b841c4e73a0b99c82c03af874))
+
 ## [2.0.3](https://github.com/8zca/my-react-components/compare/v2.0.2...v2.0.3) (2022-09-03)
 
 
