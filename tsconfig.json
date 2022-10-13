@@ -1,27 +1,25 @@
 {
   "compilerOptions": {
-    "target": "es6", 
+    "target": "es2020", 
+    "lib": ["es2020", "dom"],
     "module": "ESNext",  
-    "jsx": "react-jsx", 
+    "jsx": "react", 
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./dist/esm",
     "strict": true, 
     "moduleResolution": "node",
     "esModuleInterop": true, 
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "declarationDir": "types",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    "baseUrl": ".",
-    "paths": {
-      "@*": ["src*"]
-    },
     "types": ["@emotion/react/types/css-prop"]
   },
   "exclude": [
-    "dist",
-    "node_modules"
+    "node_modules",
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
   ]
 }
