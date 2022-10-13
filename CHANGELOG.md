@@ -5,6 +5,13 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [3.0.8](https://github.com/8zca/my-react-components/compare/v3.0.7...v3.0.8) (2022-10-13)
+
+
+### Bug Fixes
+
+* rollup -> tsc ([c390a7e](https://github.com/8zca/my-react-components/commit/c390a7e6e48989045c6a639ed69b3aa1d6705a42))
+
 ## [3.0.7](https://github.com/8zca/my-react-components/compare/v3.0.6...v3.0.7) (2022-10-13)
 
 
