@@ -29,12 +29,13 @@ export default [
             resolve(),
             commonjs(),
             // eslint-disable-next-line no-undef
-            typescript({ tsconfig: path.resolve(__dirname, 'babel.config.js'), }),
+            typescript({ tsconfig: './tsconfig.json' }),
             terser(),
             babel({
                 babelrc: false,
                 babelHelpers: 'bundled',
-                configFile: './babel.config.js'
+                // eslint-disable-next-line no-undef
+                configFile: path.resolve(__dirname, 'babel.config.js')
             })
         ],
         external: ['react', 'react-dom', '@emotion/react', '@emotion/styled']
