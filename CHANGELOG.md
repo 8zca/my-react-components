@@ -5,6 +5,13 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [3.0.9](https://github.com/8zca/my-react-components/compare/v3.0.8...v3.0.9) (2022-10-13)
+
+
+### Bug Fixes
+
+* update ([dabba38](https://github.com/8zca/my-react-components/commit/dabba38da14f35609c2e5d98cea6fd941fe980c8))
+
 ## [3.0.8](https://github.com/8zca/my-react-components/compare/v3.0.7...v3.0.8) (2022-10-13)
 
 
