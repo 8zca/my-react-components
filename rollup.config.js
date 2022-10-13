@@ -1,5 +1,5 @@
 import { babel } from '@rollup/plugin-babel'
-
+import path from 'path';
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import typescript from '@rollup/plugin-typescript'
@@ -28,9 +28,14 @@ export default [
             peerDepsExternal(),
             resolve(),
             commonjs(),
-            typescript({ tsconfig: './tsconfig.json' }),
+            // eslint-disable-next-line no-undef
+            typescript({ tsconfig: path.resolve(__dirname, 'babel.config.js'), }),
             terser(),
-            babel({ babelHelpers: 'bundled', configFile: './babel.config.js' })
+            babel({
+                babelrc: false,
+                babelHelpers: 'bundled',
+                configFile: './babel.config.js'
+            })
         ],
         external: ['react', 'react-dom', '@emotion/react', '@emotion/styled']
     },

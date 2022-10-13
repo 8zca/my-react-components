@@ -5,5 +5,5 @@ module.exports = {
     '@babel/preset-react',
     '@babel/preset-typescript'
   ],
-  plugins: ["@emotion"]
+  plugins: ["@emotion/babel-plugin"]
 }
