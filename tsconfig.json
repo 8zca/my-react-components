@@ -1,25 +1,24 @@
 {
   "compilerOptions": {
-    "target": "es2020", 
-    "lib": ["es2020", "dom"],
-    "module": "ESNext",  
-    "jsx": "react", 
+    "target": "es2015",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "sourceMap": true,
-    "outDir": "./dist/esm",
-    "strict": true, 
+    "outDir": "dist/esm",
+    "strict": true,
     "moduleResolution": "node",
-    "esModuleInterop": true, 
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["@emotion/react/types/css-prop"]
+    "types": ["@emotion/react/types/css-prop", "jest", "node"]
   },
   "exclude": [
+    "dist",
     "node_modules",
-  ],
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
+    "src/**/*.stories.tsx",
+    "src/**/*.test.tsx"
   ]
 }
