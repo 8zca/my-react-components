@@ -1,5 +1,4 @@
 import { babel } from '@rollup/plugin-babel'
-import path from 'path';
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import typescript from '@rollup/plugin-typescript'
@@ -32,10 +31,7 @@ export default [
             typescript({ tsconfig: './tsconfig.json' }),
             terser(),
             babel({
-                babelrc: false,
                 babelHelpers: 'bundled',
-                // eslint-disable-next-line no-undef
-                configFile: path.resolve(__dirname, 'babel.config.js')
             })
         ],
         external: ['react', 'react-dom', '@emotion/react', '@emotion/styled']
