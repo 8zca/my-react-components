@@ -5,6 +5,13 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [3.0.7](https://github.com/8zca/my-react-components/compare/v3.0.6...v3.0.7) (2022-10-13)
+
+
+### Bug Fixes
+
+* babel config ([c897f60](https://github.com/8zca/my-react-components/commit/c897f60e4f71270225553c17e2d94c81e342e009))
+
 ## [3.0.6](https://github.com/8zca/my-react-components/compare/v3.0.5...v3.0.6) (2022-10-13)
 
 
