@@ -5,6 +5,13 @@
 
 * patch test ([b5662cc](https://github.com/8zca/my-react-components/commit/b5662cc773836d323a29737b807776c7cb7cac0e))
 
+## [3.0.6](https://github.com/8zca/my-react-components/compare/v3.0.5...v3.0.6) (2022-10-13)
+
+
+### Bug Fixes
+
+* babel css prop ([46bd090](https://github.com/8zca/my-react-components/commit/46bd09023780f5adef7ff83580a8e3db6071f2ec))
+
 ## [3.0.5](https://github.com/8zca/my-react-components/compare/v3.0.4...v3.0.5) (2022-10-13)
 
 
